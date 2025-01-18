@@ -1,14 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 const HeroSection = () => {
+
+  const [selected, setSelected] = useState("About Us"); // State to track the selected item
+
+  const navItems = ["Our work", "About Us", "Our Products", "Contact Us", "Login"];
+
+
   return (
     <div>
       {/* bg-[url("/elefent.jpg")] bg-cover bg-center  */}
       <div className="w-[1440px] h-[42px] bg-[#B8FE22] mx-auto text-center">
-        <p className="text-xl pt-2">High quality misting and spray solutions to meet all your needs.</p>
+        <p className="text-xl pt-2">
+          High quality misting and spray solutions to meet all your needs.
+        </p>
       </div>
       <div className='w-[1440px] h-[1206px] rounded-b-2xl bg-[#55A6C4] mx-auto bg-[url("/elefent.png")] bg-cover bg-center'>
         <Image
@@ -34,7 +42,10 @@ const HeroSection = () => {
         <div className="ml-[50px] mt-[-40px]">
           <h1
             className="text-[91.5px]"
-            style={{ fontWeight: "700", lineHeight: "100px" }}
+            style={{
+              fontWeight: "700",
+              lineHeight: "100px",
+            }}
           >
             Own Your <br></br> Fog system,
           </h1>
@@ -42,6 +53,7 @@ const HeroSection = () => {
             Own Your Cool!
           </h2>
         </div>
+
         <div className="">
           <div className="ml-[59px] mt-3 flex">
             <p
@@ -188,7 +200,8 @@ const HeroSection = () => {
         </div>
 
         <div>
-          <nav className="flex items-center justify-center bg-white py-3 rounded-full w-[580px] mx-auto mt-16 shadow-lg">
+
+        {/* <nav className="flex items-center justify-center bg-white py-3 rounded-full w-[580px] mx-auto mt-16 shadow-lg">
             <ul className="flex gap-8 text-black font-medium text-lg">
               <li className="hover:underline cursor-pointer">Our work</li>
               <li className="hover:underline cursor-pointer">About Us</li>
@@ -198,6 +211,22 @@ const HeroSection = () => {
             <button className="bg-[#B8FE22] text-black px-6 py-2 rounded-full ml-6 font-medium text-lg hover:shadow-md">
               Login
             </button>
+          </nav> */}
+
+          <nav className="flex items-center justify-center bg-white py-3 rounded-full w-[620px] mx-auto mt-16 shadow-lg">
+            <ul className="flex gap-8 text-black font-medium text-lg">
+              {navItems.map((item) => (
+                <li
+                  key={item}
+                  onClick={() => setSelected(item)} // Update the selected item
+                  className={`cursor-pointer py-2 rounded-full px-2 ${
+                    selected === item ? "bg-[#B8FE22]" : ""
+                  } hover:underline`}
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
           </nav>
         </div>
       </div>
