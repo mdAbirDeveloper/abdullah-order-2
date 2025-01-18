@@ -4,8 +4,8 @@ import React from "react";
 const Client = () => {
   return (
     <div>
-      <div className="w-[1440px] mx-auto">
-        <div className="text-center my-44">
+      <div className="w-[1440px] mx-auto bg-white mt-2 rounded-3xl p-16">
+        <div className="text-center">
           <h2
             style={{ fontWeight: "700", lineHeight: "98px" }}
             className="text-[82px]"

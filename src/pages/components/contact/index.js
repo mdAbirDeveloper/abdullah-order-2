@@ -5,9 +5,9 @@ import { IoIosMailOpen } from "react-icons/io";
 const Contact = () => {
   return (
     <div>
-      <div className="w-[1440px] mx-auto mt-20">
+      <div className="w-[1440px] mx-auto mt-2 mb-2">
         <div className="w-[1440px] h-[812px] flex rounded-3xl">
-          <div className="w-[1021px] h-full bg-white rounded-3xl"></div>
+          <div className="w-[1021px] h-full bg-white rounded-l-3xl"></div>
           <div className="w-[419px] h-full bg-[#55A6C4] rounded-r-3xl"></div>
         </div>
 

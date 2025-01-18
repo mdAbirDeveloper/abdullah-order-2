@@ -4,7 +4,7 @@ import { FaStarOfLife } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="w-[1440px] h-[625px] mx-auto rounded-3xl">
+    <div className="w-[1440px] h-[625px] mx-auto rounded-3xl bg-white my-2">
       <div className="pt-28 ml-16 flex">
         <div>
           <h1

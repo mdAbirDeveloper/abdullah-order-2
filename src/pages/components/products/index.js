@@ -1,15 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable jsx-a11y/alt-text */
 
 import { GoArrowUpRight } from "react-icons/go";
 
 const Products = () => {
   return (
-    <div className="w-[1440px] mx-auto ">
+    <div className="w-[1440px] mx-auto bg-white rounded-3xl mt-2 pb-7">
       <div>
         <h2
           style={{ fontWeight: "700", fontSize: "68px", lineHeight: "82px" }}
-          className="text-center my-16"
+          className="text-center py-16 "
         >
           Our Products
         </h2>
