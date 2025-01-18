@@ -37,14 +37,14 @@ const About = () => {
       </div>
 
       <div className="flex justify-center items-center py-10 mt-5">
-        <div className="grid md:grid-cols-4 gap-6 justify-around">
-          <div>
+        <div className="flex gap-6 justify-around">
+          <div className="w-[331px]">
             <div className="w-full">
             <FaStarOfLife className="ml-36 mt-20 text-6xl text-[#7BBFD9]" />
             </div>
           </div>
           {/* Continuous warranty and maintenance */}
-          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md">
+          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md w-[331px]">
             <h3 className="text-lg font-semibold mb-2" style={{fontWeight: "700", fontSize: "24px", lineHeight: "37px"}}>
               Continuous warranty and maintenance
             </h3>
@@ -56,7 +56,7 @@ const About = () => {
           </div>
 
           {/* Custom fabrication and installation */}
-          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md">
+          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md w-[331px]">
             <h3 className="text-lg font-semibold mb-2" style={{fontWeight: "700", fontSize: "24px", lineHeight: "37px"}}>
               Custom fabrication and installation
             </h3>
@@ -69,7 +69,7 @@ const About = () => {
           </div>
 
           {/* Integrated solutions for engineering design */}
-          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md">
+          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md w-[331px]">
             <h3 className="text-lg font-semibold mb-2" style={{fontWeight: "700", fontSize: "24px", lineHeight: "37px"}}>
               Integrated solutions for engineering design
             </h3>
