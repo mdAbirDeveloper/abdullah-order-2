@@ -37,7 +37,7 @@ const About = () => {
       </div>
 
       <div className="flex justify-center items-center py-10 mt-5">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 justify-around">
+        <div className="grid md:grid-cols-4 gap-6 justify-around">
           <div>
             <div className="w-full">
             <FaStarOfLife className="ml-36 mt-20 text-6xl text-[#7BBFD9]" />
