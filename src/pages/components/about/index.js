@@ -4,25 +4,26 @@ import { FaStarOfLife } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="w-[1440px] h-[625px] mx-auto rounded-3xl bg-white my-2">
-      <div className="pt-28 ml-16 flex">
-        <div>
+    <div className="md:w-[1440px] md:h-[625px] mx-auto rounded-3xl bg-white my-2">
+      <div className="pt-28 md:ml-16 md:flex">
+        <div className="md:text-[55px] text-[33px]">
           <h1
-            className="flex"
-            style={{ fontWeight: "700", fontSize: "55px", lineHeight: "66px" }}
+            className="flex md:text-[55px] text-[55px] md:justify-start justify-center mb-2"
+            style={{ fontWeight: "700", lineHeight: "66px" }}
           >
             About Us,{" "}
             <BiSolidLike className="bg-black text-white rounded-full p-2 text-5xl mt-3 ml-2" />
           </h1>
           <h2
-            style={{ fontWeight: "700", fontSize: "55px", lineHeight: "66px" }}
+            style={{ fontWeight: "700", }}
+            className="md:leading-[66px] leading-3"
           >
-            <span className="text-2xl mt-[30px] ml-8">01</span> Fog and spray
+            <span className="text-2xl mt-[30px] md:ml-8">01</span> Fog and spray
             systems,
           </h2>
         </div>
 
-        <div className="ml-56 flex">
+        <div className="md:ml-56 flex md:mt-0 mt-2">
           <h2 style={{ fontSize: "25px" }} className="font-bold">
             02
           </h2>
@@ -36,15 +37,15 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center py-10 mt-5">
-        <div className="flex gap-6 justify-around">
-          <div className="w-[331px]">
+      <div className="md:flex justify-center items-center py-10 mt-5">
+        <div className="md:flex gap-6 justify-around">
+          <div className="md:w-[331px] mt-2">
             <div className="w-full">
-            <FaStarOfLife className="ml-36 mt-20 text-6xl text-[#7BBFD9]" />
+            <FaStarOfLife className="md:ml-36 md:mt-20 ml-44 mb-12 text-6xl text-[#7BBFD9]" />
             </div>
           </div>
           {/* Continuous warranty and maintenance */}
-          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md w-[331px]">
+          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md md:w-[331px] mt-2">
             <h3 className="text-lg font-semibold mb-2" style={{fontWeight: "700", fontSize: "24px", lineHeight: "37px"}}>
               Continuous warranty and maintenance
             </h3>
@@ -56,7 +57,7 @@ const About = () => {
           </div>
 
           {/* Custom fabrication and installation */}
-          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md w-[331px]">
+          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md md:w-[331px] mt-2">
             <h3 className="text-lg font-semibold mb-2" style={{fontWeight: "700", fontSize: "24px", lineHeight: "37px"}}>
               Custom fabrication and installation
             </h3>
@@ -69,7 +70,7 @@ const About = () => {
           </div>
 
           {/* Integrated solutions for engineering design */}
-          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md w-[331px]">
+          <div className="bg-[#F7F7F5] p-6 rounded-lg shadow-md md:w-[331px] mt-2">
             <h3 className="text-lg font-semibold mb-2" style={{fontWeight: "700", fontSize: "24px", lineHeight: "37px"}}>
               Integrated solutions for engineering design
             </h3>

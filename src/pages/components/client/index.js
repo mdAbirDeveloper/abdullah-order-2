@@ -4,7 +4,7 @@ import React from "react";
 const Client = () => {
   return (
     <div>
-      <div className="w-[1440px] mx-auto bg-white mt-2 rounded-3xl p-16">
+      <div className="md:w-[1440px] mx-auto bg-white pt-20 rounded-3xl md:p-16 md:mt-0">
         <div className="text-center">
           <h2
             style={{ fontWeight: "700", lineHeight: "98px" }}
@@ -20,10 +20,10 @@ const Client = () => {
           </h3>
         </div>
         <div className="">
-          <div>
+          <div className="md:text-left text-center">
             <h2
-              style={{ fontWeight: "700", lineHeight: "280px" }}
-              className="text-[234px] text-[#063434]"
+              style={{ fontWeight: "700",}}
+              className="md:text-[234px] text-[100px] md:leading-[280px] leading-[180px] text-[#063434]"
             >
               206 <span className="text-[#5DA8C7]">+</span>
             </h2>
@@ -35,8 +35,8 @@ const Client = () => {
             </h3>
           </div>
 
-          <div className="flex mt-16 gap-7">
-            <div className="bg-[#87898A] rounded-[37px] py-20 px-28">
+          <div className="flex mt-16 md:gap-7 gap-2">
+            <div className="bg-[#87898A] rounded-[37px] md:py-20 py-2 md:px-28 px-5">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="text-[80px] text-white"
@@ -44,7 +44,7 @@ const Client = () => {
                 D
               </h1>
             </div>
-            <div className="bg-[#AFA1C3] rounded-full py-20 px-28">
+            <div className="bg-[#AFA1C3] rounded-full md:py-20 py-2 md:px-28 px-5">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="text-[80px] text-white"
@@ -52,7 +52,7 @@ const Client = () => {
                 M
               </h1>
             </div>
-            <div className="bg-[#DDCB9C] rounded-[37px] py-20 px-28">
+            <div className="bg-[#DDCB9C] rounded-[37px] md:py-20 py-2 md:px-28 px-5">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="text-[80px] text-white"
@@ -60,7 +60,7 @@ const Client = () => {
                 A
               </h1>
             </div>
-            <div className="bg-[#5DA8C7] rounded-full py-20 px-28">
+            <div className="bg-[#5DA8C7] rounded-full md:py-20 py-2 md:px-28 px-5">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="text-[80px] text-white"
@@ -70,10 +70,10 @@ const Client = () => {
             </div>
           </div>
 
-          <div className="mt-16 ml-[900px]">
+          <div className="mt-16 md:ml-[900px] ml-0">
             <p
               style={{ fontWeight: "500", lineHeight: "21px" }}
-              className="text-[18px] w-[443px]"
+              className="text-[18px] md:w-[443px] md:text-left text-center"
             >
               Great and sophisticated treatment. I installed the fog system in
               my house and their work was professional and organized. I thank
@@ -94,9 +94,9 @@ const Client = () => {
                 <h1
                   style={{
                     fontWeight: "500",
-                    fontSize: "109px",
                     lineHeight: "130px",
                   }}
+                  className="md:text-[109px] text-[70px]"
                 >
                   95%
                 </h1>
@@ -114,9 +114,9 @@ const Client = () => {
                 <h1
                   style={{
                     fontWeight: "500",
-                    fontSize: "109px",
                     lineHeight: "130px",
                   }}
+                  className="md:text-[109px] text-[70px]"
                 >
                   9/10
                 </h1>
@@ -134,44 +134,44 @@ const Client = () => {
           </div>
 
           <div className="mt-10">
-            <div className="flex justify-between">
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+            <div className="grid md:grid-cols-6 grid-cols-2 gap-3">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-1.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-2.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-3.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-4.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-5.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-6.png" alt="" className="" />
               </div>
             </div>
 
-            <div className="flex justify-between mt-2">
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+            <div className="grid md:grid-cols-6 grid-cols-2 gap-3 mt-2">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-7.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-8.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-9.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-10.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-11.png" alt="" className="" />
               </div>
-              <div className="w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-12.png" alt="" className="" />
               </div>
             </div>

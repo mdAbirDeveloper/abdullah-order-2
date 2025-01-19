@@ -4,16 +4,16 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Products = () => {
   return (
-    <div className="w-[1440px] mx-auto bg-white rounded-3xl mt-2 pb-7">
+    <div className="md:w-[1440px] mx-auto bg-white rounded-3xl mt-2 pb-7">
       <div>
         <h2
-          style={{ fontWeight: "700", fontSize: "68px", lineHeight: "82px" }}
-          className="text-center py-16 "
+          style={{ fontWeight: "700", lineHeight: "82px" }}
+          className="text-center py-16 md:text-[68px] text-[48px]"
         >
           Our Products
         </h2>
 
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid md:grid-cols-3 gap-2">
           <div
             style={{
               height: "505px",

@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <div className="w-[1440px] mx-auto h-[1006px] rounded-t-2xl bg-[#55A6C4] bg-[url('/fotter-img.png')] bg-contain bg-no-repeat bg-center">
+        <div className="md:w-[1440px] mx-auto h-[1006px] rounded-t-2xl bg-[#55A6C4] bg-[url('/fotter-img.png')] bg-contain bg-no-repeat bg-center">
           <div className="flex">
             <div className="mt-16">
               <img
                 src="/logo.png"
                 alt=""
-                className="w-[268px] h-[107px] ml-20"
+                className="md:w-[268px] md:h-[107px] ml-20 md:block hidden"
               />
             </div>
-            <div className=" mt-16 ml-[700px]">
+            <div className=" mt-16 md:ml-[700px]">
               <div className="flex">
                 <p className="text-[20px] text-white ml-5">Our work</p>
                 <p className="text-[20px] text-white ml-5">Products</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-32 text-white ml-20 text-2xl">
+          <div className="mt-32 text-white md:ml-20 ml-3 text-2xl">
             <p>For any inquiries</p>
             <p>please call: +966533360688</p>
             <p>Email: info@csc-fog.sa</p>
@@ -36,28 +36,29 @@ const Footer = () => {
 
           <div className="flex">
             <h2
-              style={{ fontWeight: "700", lineHeight: "174px" }}
-              className="text-[168px] text-[#B8FE22] mt-28 ml-20"
+              style={{ fontWeight: "700", }}
+              className=" text-[#B8FE22] mt-28 md:ml-20 md:text-[168px] text-[72px] md:leading-[174px] leading-[60px]"
             >
               Join Our <br></br>
               Clints
             </h2>
             <div
-              className="rounded-[30px] p-4 h-[162px] w-[162px] mx-auto mt-72 ml-96 bg-[#B8FE22]"
+              className="rounded-[30px] p-4 h-[162px] w-[162px] mx-auto md:mt-72 mt-36 md:ml-96 bg-[#B8FE22]"
               style={{ border: "3px solid skyblue" }}
             >
               <GoArrowUpRight className="h-[65px] w-[65px] mx-auto mt-8 font-bold" />
             </div>
           </div>
 
-
-            <div>
-                <div className="border-t-2 mt-16 flex justify-center pt-5 text-white">
-                    <p>Airport Road، Building 7, Level 1, Zone A, The Business Gate, Riyadh |</p>
-                    <p className="ml-2"> CSC Group Copyright 2025</p>
-                </div>
+          <div>
+            <div className="border-t-2 mt-16 flex justify-center pt-5 text-white">
+              <p>
+                Airport Road، Building 7, Level 1, Zone A, The Business Gate,
+                Riyadh |
+              </p>
+              <p className="ml-2"> CSC Group Copyright 2025</p>
             </div>
-
+          </div>
         </div>
       </div>
     </div>
