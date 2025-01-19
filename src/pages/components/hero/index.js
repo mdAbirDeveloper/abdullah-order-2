@@ -22,7 +22,7 @@ const HeroSection = () => {
           High quality misting and spray solutions to meet all your needs.
         </p>
       </div>
-      <div className='md:w-[1440px] h-[1206px] rounded-b-2xl bg-[#55A6C4] mx-auto bg-[url("/elefent.png")] bg-contain bg-no-repeat bg-center'>
+      <div className='md:w-[1440px] md:h-[1206px] rounded-b-2xl bg-[#55A6C4] mx-auto bg-[url("/elefent.png")] bg-contain bg-no-repeat bg-center'>
         <Image
           height={107}
           width={268}
@@ -213,9 +213,9 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="md:block hidden">
-          <nav className="flex items-center justify-center bg-white py-3 rounded-full w-[620px] mx-auto mt-10 shadow-lg">
-            <ul className="flex gap-8 text-black font-medium text-lg">
+        <div className="pb-4">
+          <nav className="flex items-center justify-center bg-white py-3 rounded-full md:w-[620px] mx-auto mt-10 shadow-lg">
+            <ul className="flex md:gap-8 gap-1 text-black font-medium md:text-lg text-xs">
               {navItems.map((item) => (
                 <li
                   key={item}
