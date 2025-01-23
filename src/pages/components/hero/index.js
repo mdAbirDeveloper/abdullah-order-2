@@ -33,7 +33,7 @@ const HeroSection = () => {
         </p>
 
         <div className="flex md:ml-[870px] md:justify-start justify-center md:mt-[76px] my-[20px]">
-          <GoArrowUpRight className="text-5xl bg-[#B8FE22] rounded-full p-1 mt-1 mr-2" />
+          <GoArrowUpRight className="text-5xl bg-[#B8FE22] rounded-full p-1 mt-1 mr-2 text-black" />
           <div>
             <button className="bg-white text-black font-serif text-xl p-3 font-normal rounded-3xl">
               Our Products
@@ -82,7 +82,7 @@ const HeroSection = () => {
                 className="rounded-[30px] p-4 h-[152px] w-[152px] mx-auto mt-3"
                 style={{ border: "3px solid black" }}
               >
-                <GoArrowUpRight className="h-[55px] w-[55px] mx-auto mt-8 font-bold" />
+                <GoArrowUpRight className="h-[55px] w-[55px] mx-auto mt-8 font-bold text-black" />
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ const HeroSection = () => {
                 Request a Quote Now
               </button>
               <button className="mt-4">
-                <GoArrowUpRight className="text-4xl bg-[#B8FE22] rounded-full p-1" />
+                <GoArrowUpRight className="text-4xl bg-[#B8FE22] rounded-full p-1 text-black" />
               </button>
             </div>
           </div>
