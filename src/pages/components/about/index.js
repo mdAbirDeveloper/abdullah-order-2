@@ -23,7 +23,7 @@ const About = () => {
             </span>{" "}
             Fog and spray systems,
           </h2>
-          <div className="flex ml-3">
+          <div className="flex ml-3 text-black">
             <p className="text-[25px] md:hidden block font-bold">01</p>
             <p className="text-[30px] md:hidden block font-bold ml-1 mt-1">Fog and spray systems,</p>
           </div>

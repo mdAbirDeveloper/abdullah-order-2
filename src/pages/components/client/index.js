@@ -146,43 +146,43 @@ const Client = () => {
 
           <div className="mt-10">
             <div className="grid md:grid-cols-6 grid-cols-2 gap-3 md:px-0 px-2">
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-1.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-2.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-3.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-4.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-5.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-6.png" alt="" className="" />
               </div>
             </div>
 
             <div className="grid md:grid-cols-6 grid-cols-2 gap-3 mt-2">
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-7.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-8.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-9.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-10.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-11.png" alt="" className="" />
               </div>
-              <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
+              <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
                 <img src="company-12.png" alt="" className="" />
               </div>
             </div>
