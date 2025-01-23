@@ -8,7 +8,7 @@ const Products = () => {
       <div>
         <h2
           style={{ fontWeight: "700", lineHeight: "82px" }}
-          className="text-center py-16 md:text-[68px] text-[48px]"
+          className="text-center py-16 md:text-[68px] text-[48px] text-black"
         >
           Our Products
         </h2>

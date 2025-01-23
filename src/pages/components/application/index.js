@@ -8,7 +8,7 @@ const Application = () => {
       <div
         className="mx-auto bg-[#063434] rounded-3xl md:w-[1415px] md:h-[1087px]"
       >
-        <div className="md:ml-12 ml-2 pt-8">
+        <div className="md:ml-12 mx-2 pt-8">
           <div>
             <h2
               style={{
@@ -60,7 +60,7 @@ const Application = () => {
                   src="/hero-right-img.jpeg"
                   className="md:h-[402px] h-[346px] md:w-[524px] w-full rounded-2xl"
                 ></img>
-                <div className="flex ml-10 absolute mt-[-100px]">
+                <div className="flex ml-10 absolute mt-[-80px]">
                   <h2
                     style={{
                       fontWeight: "500",
@@ -71,7 +71,7 @@ const Application = () => {
                   >
                     Fog Effects
                   </h2>
-                  <GoArrowUpRight className="md:text-6xl text-5xl bg-[#B8FE22] rounded-full p-1 md:ml-28 ml-20" />
+                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-28 ml-[60px]" />
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Application = () => {
                     >
                       Commercial & Industrial Humidification
                     </h2>
-                    <GoArrowUpRight className="md:text-6xl text-5xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
+                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:mt-5 mt-10 ml-2" />
                   </div>
                 </div>
 
@@ -117,7 +117,7 @@ const Application = () => {
                     >
                       Gas Turbine Fogging
                     </h2>
-                    <GoArrowUpRight className="md:text-6xl text-5xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
+                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
                   </div>
                 </div>
 
@@ -139,7 +139,7 @@ const Application = () => {
                     >
                       Water <br></br> Treatment
                     </h2>
-                    <GoArrowUpRight className="md:text-6xl text-5xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
+                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
                   </div>
                 </div>
               </div>

@@ -15,15 +15,15 @@ const Contact = () => {
           <div className="md:ml-20 mt-[-630px]">
             <h2
               style={{ fontWeight: "600", lineHeight: "24px" }}
-              className="text-[46px]"
+              className="text-[46px] text-black ml-2"
             >
               Contact <span className="text-[#55A6C4]">US</span>
             </h2>
-            <p className="text-[14px] my-5">
+            <p className="text-[14px] my-5 text-black ml-3">
               Airport Road، Building 7, Level 1, Zone A, The
-              Business Gate, Riyadh,
+              Business Gate, Riyadh,
             </p>
-            <div className="md:w-[548px]">
+            <div className="md:w-[548px] px-2">
               <input
                 placeholder="Contact name"
                 className="text-3xl mt-4 w-full"
@@ -48,7 +48,7 @@ const Contact = () => {
                 Submit
               </button>
 
-              <div className="mt-4 grid md:grid-cols-3 grid-cols-2 justify-center">
+              <div className="mt-4 grid md:grid-cols-3 grid-cols-2 justify-center text-black">
                 <div className="flex">
                   <FaPhoneVolume className="text-4xl mt-2 mr-2" />
                   <div>

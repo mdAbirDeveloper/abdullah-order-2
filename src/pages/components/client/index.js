@@ -8,12 +8,12 @@ const Client = () => {
         <div className="text-center">
           <h2
             style={{ fontWeight: "700", lineHeight: "98px" }}
-            className="text-[82px]"
+            className="text-[82px] text-black"
           >
             Over 870+
           </h2>
           <h3
-            className="text-[39px]"
+            className="text-[39px] text-black"
             style={{ fontWeight: "500", lineHeight: "46px" }}
           >
             Diverse Projects and <br></br> Integrated Solutions
@@ -73,7 +73,7 @@ const Client = () => {
           <div className="mt-16 md:ml-[900px] ml-0">
             <p
               style={{ fontWeight: "500", lineHeight: "21px" }}
-              className="text-[18px] md:w-[443px] md:text-left text-center"
+              className="text-[18px] md:w-[443px] md:text-left text-left ml-2 text-black"
             >
               Great and sophisticated treatment. I installed the fog system in
               my house and their work was professional and organized. I thank
@@ -85,11 +85,13 @@ const Client = () => {
                 lineHeight: "26px",
                 fontSize: "24px",
                 marginTop: "5px",
+                color: "black",
+                marginLeft: "7px"
               }}
             >
               Dalal M
             </p>
-            <div className="flex mt-8 text-[#063434]">
+            <div className="flex mt-8 text-[#063434] px-2">
               <div>
                 <h1
                   style={{
@@ -134,7 +136,7 @@ const Client = () => {
           </div>
 
           <div className="mt-10">
-            <div className="grid md:grid-cols-6 grid-cols-2 gap-3">
+            <div className="grid md:grid-cols-6 grid-cols-2 gap-3 md:px-0 px-2">
               <div className="md:w-[205px] md:h-[205px] rounded-3xl bg-[#F7F7F5]">
                 <img src="company-1.png" alt="" className="" />
               </div>

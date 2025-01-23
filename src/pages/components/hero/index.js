@@ -54,7 +54,7 @@ const HeroSection = () => {
           </h1>
           <h2
             style={{ fontWeight: "400" }}
-            className="md:text-[84px] text-[50px] font-bold"
+            className="md:text-[84px] text-[50px] font-bold text-black"
           >
             Own Your Cool!
           </h2>
@@ -173,7 +173,7 @@ const HeroSection = () => {
         <div className="h-[324px] w-[316px] bg-white rounded-2xl md:ml-[972px] md:mt-[-320px] mt-7 mx-auto">
           <div>
             <button
-              className="absolute bg-white p-2 rounded-3xl mt-7 ml-[190px]"
+              className="absolute bg-white p-2 rounded-3xl mt-7 ml-[190px] text-black"
               style={{
                 fontWeight: "500",
                 fontSize: "17px",
@@ -188,7 +188,7 @@ const HeroSection = () => {
               src="/hero-right-img.jpeg"
             />
           </div>
-          <div className="ml-2 mt-4">
+          <div className="ml-2 mt-4 text-black">
             <p
               style={{
                 fontWeight: "700",
