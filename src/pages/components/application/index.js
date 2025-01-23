@@ -71,7 +71,7 @@ const Application = () => {
                   >
                     Fog Effects
                   </h2>
-                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-28 ml-[60px] text-black" />
+                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-28 ml-[75px] text-black" />
                 </div>
               </div>
             </div>

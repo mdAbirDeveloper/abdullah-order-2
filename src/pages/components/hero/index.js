@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className='md:w-[1440px] md:h-[1206px] rounded-b-2xl bg-[#55A6C4] mx-auto bg-[url("/elefent.png")] bg-contain bg-no-repeat bg-center'>
         <img
           alt="logo"
-          className="pt-[20px] md:pl-[50px] md:h-[107px] md:w-[268px] h-[80] w-[180px]"
+          className="pt-[20px] md:pl-[50px] md:h-[107px] md:w-[268px] h-[80] w-[180px] ml-2"
           src="/logo.png"
         />
         <p className="text-[#B8FE22] text-[25px] font-serif md:mt-[120px] md:ml-[59px] md:text-left text-center mt-3">

@@ -46,7 +46,7 @@ const Footer = () => {
               className="rounded-[30px] p-4 h-[162px] w-[162px] mx-auto md:mt-72 mt-36 md:ml-96 bg-[#B8FE22] mr-2"
               style={{ border: "3px solid skyblue" }}
             >
-              <GoArrowUpRight className="h-[65px] w-[65px] mx-auto mt-8 font-bold" />
+              <GoArrowUpRight className="h-[65px] w-[65px] mx-auto mt-8 font-bold text-black" />
             </div>
           </div>
 

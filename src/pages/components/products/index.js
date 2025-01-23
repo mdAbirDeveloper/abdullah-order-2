@@ -13,7 +13,7 @@ const Products = () => {
           Our Products
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-2">
+        <div className="grid md:grid-cols-3 gap-2 px-2">
           <div
             style={{
               height: "505px",
