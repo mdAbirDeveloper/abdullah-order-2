@@ -14,9 +14,10 @@ const Products = () => {
         </h2>
 
         <div className="grid md:grid-cols-3 gap-2 px-2">
-          <div
+          <div 
+          className="md:h-[555px] h-[476px]"
             style={{
-              height: "505px",
+              
               background: "#7BBFD9",
               borderRadius: "27px",
             }}
@@ -40,9 +41,10 @@ const Products = () => {
               alt=""
             />
           </div>
-          <div
+          <div 
+          className="md:h-[555px] h-[476px]"
             style={{
-              height: "505px",
+              
               background: "#7BBFD9",
               borderRadius: "27px",
             }}
@@ -66,9 +68,10 @@ const Products = () => {
               alt=""
             />
           </div>
-          <div
+          <div 
+          className="md:h-[555px] h-[476px]"
             style={{
-              height: "505px",
+              
               background: "#7BBFD9",
               borderRadius: "27px",
             }}
@@ -93,9 +96,10 @@ const Products = () => {
             />
           </div>
 
-          <div
+          <div 
+          className="md:h-[555px] h-[476px]"
             style={{
-              height: "505px",
+              
               background: "#7BBFD9",
               borderRadius: "27px",
             }}
@@ -120,9 +124,10 @@ const Products = () => {
             />
           </div>
 
-          <div
+          <div 
+          className="md:h-[555px] h-[476px]"
             style={{
-              height: "505px",
+              
               background: "#7BBFD9",
               borderRadius: "27px",
             }}
@@ -142,14 +147,15 @@ const Products = () => {
             </div>
             <img
               src="/filter.png"
-              className="w-[474px] h-[474px] mt-[-50px]"
+              className="w-[474px] md:h-[474px] mt-[-50px]"
               alt=""
             />
           </div>
 
-          <div
+          <div 
+          className="md:h-[555px] h-[476px]"
             style={{
-              height: "505px",
+              
               background: "#7BBFD9",
               borderRadius: "27px",
             }}

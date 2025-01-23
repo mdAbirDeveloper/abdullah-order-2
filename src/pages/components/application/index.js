@@ -33,11 +33,11 @@ const Application = () => {
 
           <div className="mt-3">
             <div className="md:flex">
-              <div className="md:h-[402px] md:w-[742px] w-full">
+              <div className="md:h-[402px] md:w-[742px] w-full mb-5">
                 <img
                   alt=""
                   src="/jhar.jpeg"
-                  className="md:h-[402px] md:w-[742px] w-full rounded-2xl"
+                  className="md:h-[402px] h-[297px] md:w-[742px] w-full rounded-2xl"
                 ></img>
                 <div className="flex ml-10 absolute md:mt-[-100px] mt-[-80px]">
                   <h2
@@ -54,11 +54,11 @@ const Application = () => {
                 </div>
               </div>
 
-              <div className="md:ml-5 md:mt-0 mt-3">
+              <div className="md:ml-5 md:mt-0">
                 <img
                   alt=""
                   src="/hero-right-img.jpeg"
-                  className="md:h-[402px] h-[346px] md:w-[524px] w-full rounded-2xl"
+                  className="md:h-[402px]  h-[297px] md:w-[524px] w-full rounded-2xl"
                 ></img>
                 <div className="flex ml-10 absolute mt-[-80px]">
                   <h2
@@ -82,7 +82,7 @@ const Application = () => {
                   <img
                     alt=""
                     src="/application.jpeg"
-                    className="md:h-[346px] md:w-[413px] w-full rounded-2xl"
+                    className="md:h-[346px] h-[297px] md:w-[413px] w-full rounded-2xl"
                   ></img>
                   <div className="flex ml-10 absolute mt-[-140px]">
                     <h2
@@ -104,7 +104,7 @@ const Application = () => {
                   <img
                     alt=""
                     src="/application-2.jpeg"
-                    className="md:h-[346px] md:w-[413px] w-full rounded-2xl"
+                    className="md:h-[346px] h-[297px] md:w-[413px] w-full rounded-2xl"
                   ></img>
                   <div className="flex ml-10 absolute md:mt-[-140px] mt-[-110px]">
                     <h2
@@ -125,7 +125,7 @@ const Application = () => {
                   <img
                     alt=""
                     src="/application-3.jpeg"
-                    className="md:h-[346px] md:w-[413px] w-full rounded-2xl"
+                    className="md:h-[346px] h-[297px] md:w-[413px] w-full rounded-2xl"
                   ></img>
                   <div className="flex ml-10 absolute md:mt-[-140px] mt-[-120px]">
                     <h2

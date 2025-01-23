@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <div className="md:w-[1440px] mx-auto h-[1006px] rounded-t-2xl bg-[#55A6C4] bg-[url('/fotter-img.png')] bg-contain bg-no-repeat bg-center">
+        <div className="md:w-[1440px] mx-auto md:h-[1006px] h-[856px] rounded-t-2xl bg-[#55A6C4] bg-[url('/fotter-img.png')] bg-contain bg-no-repeat bg-center">
           <div className="flex">
             <div className="mt-16">
               <img
@@ -15,7 +15,7 @@ const Footer = () => {
                 className="md:w-[268px] md:h-[107px] ml-20 md:block hidden"
               />
             </div>
-            <div className=" mt-16 md:ml-[700px]">
+            <div className="md:mt-16 mt-4 md:ml-[700px]">
               <div className="flex">
                 <p className="text-[20px] text-white ml-5">Our work</p>
                 <p className="text-[20px] text-white ml-5">Products</p>
@@ -36,18 +36,25 @@ const Footer = () => {
 
           <div className="flex">
             <h2
-              style={{ fontWeight: "700", }}
-              className=" text-[#B8FE22] mt-28 md:ml-20 md:text-[168px] text-[72px] md:leading-[174px] leading-[60px] ml-2"
+              style={{ fontWeight: "700" }}
+              className="text-[#B8FE22] mt-28 md:ml-20 md:text-[168px] text-[79px] md:leading-[174px] leading-[110px] ml-2"
             >
               Join Our <br></br>
               Clints
             </h2>
             <div
-              className="rounded-[30px] p-4 h-[162px] w-[162px] mx-auto md:mt-72 mt-36 md:ml-96 bg-[#B8FE22] mr-2"
+              className="md:block hidden rounded-[30px] p-4 md:h-[162px] h-[122px] md:w-[162px] w-[122px] mx-auto md:mt-72 mt-36 md:ml-96 bg-[#B8FE22] mr-2"
               style={{ border: "3px solid skyblue" }}
             >
               <GoArrowUpRight className="h-[65px] w-[65px] mx-auto mt-8 font-bold text-black" />
             </div>
+          </div>
+
+          <div
+            className="md:hidden block rounded-[30px] p-4 h-[122px] w-[122px] mx-auto mr-9 mt-[-90px] bg-[#B8FE22]"
+            style={{ border: "3px solid skyblue" }}
+          >
+            <GoArrowUpRight className="h-[65px] w-[65px] mx-auto mt-4 font-bold text-black" />
           </div>
 
           <div>
