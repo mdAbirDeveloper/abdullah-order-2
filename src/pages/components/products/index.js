@@ -32,9 +32,13 @@ const Products = () => {
               >
                 PUMPS
               </h2>
-              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4" />
+              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 text-black" />
             </div>
-            <img src="/pump.png" className="w-[474px] h-[474px] mt-[-50px]" alt="" />
+            <img
+              src="/pump.png"
+              className="w-[474px] h-[474px] mt-[-50px]"
+              alt=""
+            />
           </div>
           <div
             style={{
@@ -54,9 +58,13 @@ const Products = () => {
               >
                 FITTINGS
               </h2>
-              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4" />
+              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 text-black" />
             </div>
-            <img src="/fittings.png" className="w-[474px] h-[474px] mt-[-30px]" alt="" />
+            <img
+              src="/fittings.png"
+              className="w-[474px] h-[474px] mt-[-30px]"
+              alt=""
+            />
           </div>
           <div
             style={{
@@ -76,12 +84,15 @@ const Products = () => {
               >
                 NOZZLES
               </h2>
-              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 relative" />
+              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 text-black relative" />
             </div>
-            <img src="/nozzel.png" className="w-[474px] h-[474px] mt-[-120px]" alt="" />
+            <img
+              src="/nozzel.png"
+              className="w-[474px] h-[474px] mt-[-120px]"
+              alt=""
+            />
           </div>
 
-          
           <div
             style={{
               height: "505px",
@@ -99,13 +110,15 @@ const Products = () => {
                 }}
               >
                 HYDRAULIC HOSES
-
               </h2>
-              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 relative" />
+              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 text-black relative" />
             </div>
-            <img src="/hoses.png" className="w-[474px] h-[474px] mt-[-120px]" alt="" />
+            <img
+              src="/hoses.png"
+              className="w-[474px] h-[474px] mt-[-120px]"
+              alt=""
+            />
           </div>
-
 
           <div
             style={{
@@ -125,9 +138,13 @@ const Products = () => {
               >
                 FILTER
               </h2>
-              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4" />
+              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 text-black" />
             </div>
-            <img src="/filter.png" className="w-[474px] h-[474px] mt-[-50px]" alt="" />
+            <img
+              src="/filter.png"
+              className="w-[474px] h-[474px] mt-[-50px]"
+              alt=""
+            />
           </div>
 
           <div
@@ -148,12 +165,14 @@ const Products = () => {
               >
                 MIST FAN
               </h2>
-              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4" />
+              <GoArrowUpRight className="text-6xl bg-[#B8FE22] rounded-full p-1 mr-4 text-black" />
             </div>
-            <img src="/fan.png" className="w-[474px] h-[474px] mt-[-50px]" alt="" />
+            <img
+              src="/fan.png"
+              className="w-[474px] h-[474px] mt-[-50px]"
+              alt=""
+            />
           </div>
-
-
         </div>
       </div>
     </div>

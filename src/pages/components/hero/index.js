@@ -17,20 +17,18 @@ const HeroSection = () => {
   return (
     <div>
       {/* bg-[url("/elefent.jpg")] bg-cover bg-center  */}
-      <div className="md:w-[1440px] md:h-[42px] bg-[#B8FE22] mx-auto text-center">
+      <div className="md:w-[1440px] md:h-[42px] bg-[#B8FE22] mx-auto text-center text-black">
         <p className="text-xl pt-2">
           High quality misting and spray solutions to meet all your needs.
         </p>
       </div>
       <div className='md:w-[1440px] md:h-[1206px] rounded-b-2xl bg-[#55A6C4] mx-auto bg-[url("/elefent.png")] bg-contain bg-no-repeat bg-center'>
-        <Image
-          height={107}
-          width={268}
+        <img
           alt="logo"
-          className="pt-[20px] md:pl-[50px]"
+          className="pt-[20px] md:pl-[50px] md:h-[107px] md:w-[268px] h-[80] w-[180px]"
           src="/logo.png"
         />
-        <p className="text-[#B8FE22] text-[25px] font-serif md:mt-[120px] md:ml-[59px] md:text-left text-center">
+        <p className="text-[#B8FE22] text-[25px] font-serif md:mt-[120px] md:ml-[59px] md:text-left text-center mt-3">
           Make your summer cool with the latest fog and spray systems
         </p>
 
@@ -45,7 +43,7 @@ const HeroSection = () => {
 
         <div className="md:ml-[50px] mt-[-40px] text-center md:text-left">
           <h1
-            className="md:text-[91.5px] text-[70px] md:leading-[100px] leading-[60px] mt-16 md:mt-10 md:text-black text-white"
+            className="md:text-[91.5px] text-[70px] md:leading-[100px] leading-[60px] mt-16 md:mt-10 text-black mb-3"
             style={{
               fontWeight: "700",
             }}
@@ -75,7 +73,7 @@ const HeroSection = () => {
               mist and fog systems. Invest <br></br> in the best, and experience
               the difference.
             </p>
-            <p className="block md:hidden text-2xl text-white">
+            <p className="block md:hidden text-2xl text-white ml-2 text-left">
               We are your partners in success, not just suppliers of mist and
               fog systems. Invest in the best, and experience the difference.
             </p>
@@ -90,7 +88,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="md:ml-[50px] mt-8">
+        <div className="md:ml-[50px] mt-8 ml-1">
           <div className="md:text-left">
             <div className="">
               <button
@@ -214,7 +212,7 @@ const HeroSection = () => {
         </div>
 
         <div className="pb-4">
-          <nav className="flex items-center justify-center bg-white py-3 rounded-full md:w-[620px] mx-auto mt-10 shadow-lg">
+          <nav className="flex items-center justify-center bg-white py-3 rounded-full md:w-[620px] md:mx-auto mx-2 mt-10 shadow-lg">
             <ul className="flex md:gap-8 gap-1 text-black font-medium md:text-lg text-xs">
               {navItems.map((item) => (
                 <li

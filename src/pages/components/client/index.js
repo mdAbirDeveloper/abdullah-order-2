@@ -35,7 +35,7 @@ const Client = () => {
             </h3>
           </div>
 
-          <div className="flex mt-16 md:gap-7 gap-2">
+          <div className="flex mt-16 md:gap-7 gap-2 justify-around">
             <div className="bg-[#87898A] rounded-[37px] md:py-20 py-2 md:px-28 px-5">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}

@@ -50,7 +50,7 @@ const Application = () => {
                   >
                     Agriculture
                   </h2>
-                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-80 ml-20" />
+                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-80 ml-20 text-black" />
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const Application = () => {
                   >
                     Fog Effects
                   </h2>
-                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-28 ml-[60px]" />
+                  <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:ml-28 ml-[60px] text-black" />
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Application = () => {
                     >
                       Commercial & Industrial Humidification
                     </h2>
-                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:mt-5 mt-10 ml-2" />
+                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 md:mt-5 mt-10 ml-2 text-black" />
                   </div>
                 </div>
 
@@ -117,7 +117,7 @@ const Application = () => {
                     >
                       Gas Turbine Fogging
                     </h2>
-                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
+                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2 text-black" />
                   </div>
                 </div>
 
@@ -139,7 +139,7 @@ const Application = () => {
                     >
                       Water <br></br> Treatment
                     </h2>
-                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2" />
+                    <GoArrowUpRight className="md:text-6xl text-4xl bg-[#B8FE22] rounded-full p-1 mt-5 ml-2 text-black" />
                   </div>
                 </div>
               </div>

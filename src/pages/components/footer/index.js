@@ -37,13 +37,13 @@ const Footer = () => {
           <div className="flex">
             <h2
               style={{ fontWeight: "700", }}
-              className=" text-[#B8FE22] mt-28 md:ml-20 md:text-[168px] text-[72px] md:leading-[174px] leading-[60px]"
+              className=" text-[#B8FE22] mt-28 md:ml-20 md:text-[168px] text-[72px] md:leading-[174px] leading-[60px] ml-2"
             >
               Join Our <br></br>
               Clints
             </h2>
             <div
-              className="rounded-[30px] p-4 h-[162px] w-[162px] mx-auto md:mt-72 mt-36 md:ml-96 bg-[#B8FE22]"
+              className="rounded-[30px] p-4 h-[162px] w-[162px] mx-auto md:mt-72 mt-36 md:ml-96 bg-[#B8FE22] mr-2"
               style={{ border: "3px solid skyblue" }}
             >
               <GoArrowUpRight className="h-[65px] w-[65px] mx-auto mt-8 font-bold" />
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <div className="border-t-2 mt-16 flex justify-center pt-5 text-white">
+            <div className="border-t-2 mt-16 flex justify-center pt-5 text-white px-2">
               <p>
                 Airport Road، Building 7, Level 1, Zone A, The Business Gate,
                 Riyadh |
