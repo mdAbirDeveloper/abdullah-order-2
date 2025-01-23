@@ -26,21 +26,21 @@ const Contact = () => {
             <div className="md:w-[548px] px-2">
               <input
                 placeholder="Contact name"
-                className="text-3xl mt-4 w-full"
+                className="text-3xl mt-4 w-full text-black"
                 style={{ borderBottom: "2px solid black" }}
               />
               <input
                 placeholder="Contact Phone"
-                className="text-3xl mt-6 w-full"
+                className="text-3xl mt-6 w-full text-black"
                 style={{ borderBottom: "2px solid black" }}
               />
               <input
                 placeholder="Contact Email"
-                className="text-3xl mt-6 w-full"
+                className="text-3xl mt-6 w-full text-black"
                 style={{ borderBottom: "2px solid black" }}
               />
               <textarea
-                className="w-full mt-3"
+                className="w-full mt-3 text-black"
                 placeholder="let's talk about your idea"
                 style={{ borderBottom: "2px solid black" }}
                 cols={20}
