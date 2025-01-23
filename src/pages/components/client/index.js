@@ -162,7 +162,7 @@ const Client = () => {
                 <img src="company-5.png" alt="" className="" />
               </div>
               <div className="md:w-[205px] h-[205px] rounded-3xl bg-[#F7F7F5] flex justify-center items-center">
-                <img src="company-6.png" alt="" className="" />
+                <img src="company-6.png" alt="" className="md:w-[205px] h-[205px]" />
               </div>
             </div>
 
