@@ -36,15 +36,15 @@ const Client = () => {
           </div>
 
           <div className="flex mt-16 md:gap-7 gap-2 ml-2">
-            <div className="bg-[#87898A] rounded-[37px] md:py-20 py-4 md:px-28 px-7">
+            <div className="bg-[#87898A] rounded-[37px] md:py-10 py-4 md:px-20 px-7">
               <h1
-                style={{ fontWeight: "700", lineHeight: "96x" }}
+                style={{ fontWeight: "700" }}
                 className="md:text-[80px] text-[40px] text-white"
               >
                 D
               </h1>
             </div>
-            <div className="bg-[#AFA1C3] rounded-full md:py-20 py-4 md:px-28 px-7">
+            <div className="bg-[#AFA1C3] rounded-full  md:py-10 py-4 md:px-20 px-7">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="md:text-[80px] text-[40px] text-white"
@@ -52,7 +52,7 @@ const Client = () => {
                 M
               </h1>
             </div>
-            <div className="bg-[#DDCB9C] rounded-[37px] md:py-20 py-4 md:px-28 px-7">
+            <div className="bg-[#DDCB9C] rounded-[37px]  md:py-10 py-4 md:px-20 px-7">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="md:text-[80px] text-[40px] text-white"
@@ -60,7 +60,7 @@ const Client = () => {
                 A
               </h1>
             </div>
-            <div className="bg-[#5DA8C7] rounded-full md:py-20 py-4 md:px-28 px-7">
+            <div className="bg-[#5DA8C7] rounded-full  md:py-10 py-4 md:px-20 px-7">
               <h1
                 style={{ fontWeight: "700", lineHeight: "96x" }}
                 className="md:text-[80px] text-[40px] text-black"
@@ -70,7 +70,7 @@ const Client = () => {
             </div>
           </div>
 
-          <div className="mt-16 md:ml-[900px] ml-0">
+          <div className="mt-16 md:ml-[700px] ml-0">
             <p
               style={{ fontWeight: "500", lineHeight: "21px" }}
               className="text-[18px] md:w-[443px] md:text-left text-left ml-3 text-black"
